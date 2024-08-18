@@ -1,0 +1,11 @@
+<section>
+  <app-shopping-edit />
+  <hr />
+  <ul class="m-5">
+    <li *ngFor="let ingredient of ingredients" class="mb-3 w-3/4 mx-auto">
+      <a class="border border-solid border-zinc-200 p-3 text-lg block w-full"
+        >{{ ingredient.name }} ({{ ingredient.amount }})</a
+      >
+    </li>
+  </ul>
+</section>
